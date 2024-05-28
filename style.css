@@ -1,0 +1,177 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+body{
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+  margin: 50px auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1{
+    font-weight: 200;
+    margin: 0;
+}
+
+.child h1{
+    font-weight: 600;
+}
+
+p{
+    color: hsl(229, 6%, 66%);
+}
+
+.contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.run{
+    border-top: 5px solid hsl(180, 62%, 55%) ;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 2px 2px 2px 2px hsl(0, 0%, 94%);
+    padding: 40px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+img{
+    margin-left: 230px;
+}
+
+.middel{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 20px;
+}
+
+img{
+    margin-left: 230px;
+}
+
+.builder{
+    border-top: 5px solid hsl(0, 78%, 62%) ;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 2px 2px 2px 2px hsl(0, 0%, 94%);
+    padding: 40px;
+}
+
+img{
+    margin-left: 230px;
+}
+
+.karma{
+    border-top: 5px solid hsl(34, 97%, 64%) ;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 2px 2px 2px 2px hsl(0, 0%, 94%);
+    padding: 40px;
+}
+
+img{
+    margin-left: 230px;
+}
+
+.sun{
+    border-top: 5px solid hsl(212, 86%, 64%) ;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 2px 2px 2px 2px hsl(0, 0%, 94%);
+    padding: 40px;
+}
+
+img{
+    margin-left: 230px;
+}
+
+@media screen and (max-width: 775px) {
+    header {
+        display: grid;
+        grid-template-columns: repeat(1, 444px);
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .child h1 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 11px;
+    }
+    
+    .contanier {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 150px;
+    }
+    
+    .run {
+        border-radius: 10px;
+    }
+    
+    .run p {
+        font-size: 13px;
+    }
+    
+    
+    .middel {
+        gap: 15px;
+    }
+    
+    .builder {
+       border-radius: 10px;
+    }
+    
+    
+    .karma {
+        border-radius: 10px;
+    }
+    
+    
+    .sun{
+        border-radius: 10px;
+    }
+    
+    
+}
+@media (max-width: 320px){
+    .contanier{
+        margin-left: 210px;
+    }
+}
+
+  
+
+
+
+
+
+
+
